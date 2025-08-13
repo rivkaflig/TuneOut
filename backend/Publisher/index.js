@@ -18,7 +18,7 @@ exports.handler = async () => {
     message = `🎶 No new playlists—why not make one?`;
   }
 
-  message += `\n\n👉 Click here to view or add playlists: http://localhost:5173/`;
+  message += `\n\n👉 Click here to view or add playlists: https://main.d1f7ssfq6fo8z0.amplifyapp.com/`;
 
   await sns.publish({
     Message: message,
