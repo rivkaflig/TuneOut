@@ -7,7 +7,7 @@ const SubscriptionButton = () => {
   const handleSubscribe = async () => {
     try {
       const priceID = "price_1RsZz40JV9IgDS6ilrHwT1p9"; 
-      const res = await fetch('https://qdwxphfqt6.execute-api.us-east-1.amazonaws.com/stripeSubscribe', {
+      const res = await fetch('https://8xuvmrmdtf.execute-api.us-east-1.amazonaws.com/stripeSubscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
